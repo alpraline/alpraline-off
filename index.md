@@ -1,37 +1,81 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alpraline off</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kenia&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Martel:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <!-- balise de haut de pasge -->
+        <header>
 
-You can use the [editor on GitHub](https://github.com/alpraline/alpraline-off/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+            <div class="title-box">
+                <!-- titre de ma page -->
+                <h1>Alpraline off</h1>
+                <p>abonne toi stp bg</p>
+            </div>
+        </header>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        <!-- slider d'image -->
+        <div class="slider">
+            <div class="slides">
+                <div class="slide"><img src="image/béa.png"></div>
+                <div class="slide"><img src="image/corbac.png"></div>
+                <div class="slide"><img src="image/minia 5 mois ep 3.png"></div>
+                <div class="slide"><img src="image/Sans titre 2.png"></div>
+            </div>
+        </div>
 
-### Markdown
+        <div id="sticky-header" class="section-menu">
+            <!-- menu de navigations -->
+            <nav class="menu">
+                <ul>
+                    <li class="nav-item youtube"><a href="https://www.youtube.com/channel/UCAp97UWqGP9lW3ZxdK5mskQ"><button>youtube</button></a></li>
+                    <li class="nav-item insta"><a href="http://127.0.0.1:5501/index.html"><button>insta</button></a></li>
+                    <li class="nav-item discord"><a href="https://discord.gg/uUyPUhMZum"><button>discord</button></a></li>
+                </ul>
+            </nav>
+        </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        <main id="main">
 
-```markdown
-Syntax highlighted code block
+            </section>
+        </main>
 
-# Header 1
-## Header 2
-### Header 3
+          <!-- section pizza -->
+          <section id="pizza" class="pizza">
 
-- Bulleted
-- List
+            <div class="item">
+                <img src="image/béa image gameplay.png">
+                <div class="item-infos">
+                    <h3>brawl stars</h3>
+                    <hr>
+                    <p>du gameplay et des brawl talk concept sur bs.</p>
+                </div>
+            </div>
 
-1. Numbered
-2. List
+            <div class="item">
+                <img src="image/rocket.jfif">
+                <div class="item-infos">
+                    <h3>rocket league sidewipe</h3>
+                    <hr>
+                    <p>gameplay rocket league sidewipe.</p>
+                </div>
+            </div>
 
-**Bold** and _Italic_ and `Code` text
+            <div class="item">
+                <img src="image/clash royal.png">
+                <div class="item-infos">
+                    <h3>clash royal</h3>
+                    <hr>
+                    <p>gameplay clash royal, deck pour les arènes et bein plus encore.</p>
+                </div>
+            </div>
 
-[Link](url) and ![Image](src)
-```
+        </section>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/alpraline/alpraline-off/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    </body>
+</html>
